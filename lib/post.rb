@@ -8,10 +8,10 @@ class Post
     @@all << self 
   end
   
-  def author_title
+  def author_name
     if !@author 
   else
-    @author.title
+    @author.name
   end
 end
 
